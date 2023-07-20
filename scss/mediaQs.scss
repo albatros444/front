@@ -1,0 +1,26 @@
+@media screen and (max-width: 420px) {
+  .background {
+    .card {
+      width: 326px;
+      height: 543px;
+      &_image {
+        height: 276px;
+        margin-bottom: 25px;
+        & > div {
+          height: 276px;
+        }
+      }
+      &_textPart {
+        p {
+          margin-top: 16px;
+          font-size: 16px;
+          line-height: 1.6;
+        }
+        .priceForNFT {
+          padding-top: 16px;
+          padding-bottom: 16px;
+        }
+      }
+    }
+  }
+}
